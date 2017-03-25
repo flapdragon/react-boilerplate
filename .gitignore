@@ -1,2 +1,28 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Coverage directory used by tools like istanbul
+coverage
+.nyc_output
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Bundled code
+dist/
+
 # Dependency directories
 node_modules
+
+# Optional npm cache directory
+.npm
+
+# IDE directories and files
+## JetBrains
+.idea/
+*.iml
+
+# Operating system files
+.DS_Store
