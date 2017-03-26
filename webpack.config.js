@@ -11,7 +11,7 @@ module.exports = {
     port: 8080
   },
   entry: [ './index.js' ],
-  modules: {
+  module: {
     loaders: [{
       exclude: /node_modules/,
       loader: 'babel-loader',
